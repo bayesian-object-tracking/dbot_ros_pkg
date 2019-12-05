@@ -91,8 +91,8 @@ include_directories(${dbot_ros_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
 set(dbot_ros_SOURCE_DIR source/${PROJECT_NAME})
 
 file(GLOB_RECURSE dbot_ros_HEADERS
-    ${dbot_SOURCE_DIR}/*.hpp
-    ${dbot_SOURCE_DIR}/*.h)
+    ${dbot_ros_SOURCE_DIR}/*.hpp
+    ${dbot_ros_SOURCE_DIR}/*.h)
 
 set(dbot_ros_SOURCES
     source/${PROJECT_NAME}/object_tracker_ros.cpp
